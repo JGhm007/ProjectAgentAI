@@ -1,24 +1,23 @@
-# --- Python ---
-__pycache__/
-*.py[cod]
-*$py.class
+# --- Seguridad (LO MÁS IMPORTANTE) ---
+.env
+.env.local
+.env.*
+
+# --- Python y Entorno Virtual ---
 .venv/
 env/
 venv/
-build/
-dist/
-plan_content.txt
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
 
-# --- Variables de Entorno (SEGURIDAD) ---
-.env
-.env.local
-.env.secret
+# --- Archivos generados por el Agente ---
+plan_semanal.txt
+plan_*.txt
 
-# --- Editores ---
+# --- Editores y Sistema ---
 .vscode/
 .idea/
-*.swp
-
-# --- Archivos de sistema ---
-Thumbs.db
 .DS_Store
+Thumbs.db
