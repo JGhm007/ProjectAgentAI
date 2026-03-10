@@ -1,0 +1,23 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+build/
+dist/
+
+# --- Variables de Entorno (SEGURIDAD) ---
+.env
+.env.local
+.env.secret
+
+# --- Editores ---
+.vscode/
+.idea/
+*.swp
+
+# --- Archivos de sistema ---
+Thumbs.db
+.DS_Store
