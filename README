@@ -1,3 +1,19 @@
 Este es un proyecto de IA que servira para automatizar tareas
 Librerias a instalar
 pip install -U google-genai langchain-google-genai python-dotenv
+Pegar en una terminal
+
+Task.py
+Con un json de lo que le pedire
+
+Agent.py
+Esta todo el agente AI basado en gemini 3
+
+Main.py
+Este es donde llamare a task y agent ademas de agregar ahi mismo el fichero donde se guardara
+la salida
+
+---
+
+Update 2
+Se agrega la funcionalidad de guardar el plan en un txt

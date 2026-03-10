@@ -7,6 +7,7 @@ env/
 venv/
 build/
 dist/
+plan_content.txt
 
 # --- Variables de Entorno (SEGURIDAD) ---
 .env
