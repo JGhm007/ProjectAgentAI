@@ -26,4 +26,4 @@ class PlanningAgent:
         try:
             return chain.invoke({"task_list": str(tasks)})
         except Exception as e:
-            return f"❌ Error: {e}"
+            return f" Error: {e}"
