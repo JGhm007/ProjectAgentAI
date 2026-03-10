@@ -1,0 +1,3 @@
+Este es un proyecto de IA que servira para automatizar tareas
+Librerias a instalar
+pip install -U google-genai langchain-google-genai python-dotenv
